@@ -309,7 +309,7 @@ function SidebarPanel({
         />
       )}
       <aside
-        className={`fixed md:relative z-40 md:z-auto top-0 left-0 h-full w-[280px] bg-[hsl(0_0%_98%)] border-r border-border flex flex-col transition-transform duration-300 ease-in-out ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}
+        className={`fixed md:relative z-40 md:z-auto top-0 left-0 h-full w-[280px] bg-[hsl(216,80%,96%)] border-r border-border flex flex-col transition-transform duration-300 ease-in-out ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}
       >
         <div className="p-4 border-b border-border">
           <div className="flex items-center gap-2.5 mb-4">
@@ -579,9 +579,9 @@ export default function Page() {
         />
 
         {/* Main Chat Area */}
-        <main className="flex-1 flex flex-col min-w-0 h-full" style={{ background: 'linear-gradient(135deg, hsl(0, 0%, 99%) 0%, hsl(210, 10%, 98%) 35%, hsl(0, 0%, 98%) 70%, hsl(220, 8%, 99%) 100%)' }}>
+        <main className="flex-1 flex flex-col min-w-0 h-full" style={{ background: 'linear-gradient(135deg, hsl(214, 100%, 97%) 0%, hsl(216, 90%, 95%) 35%, hsl(220, 80%, 96%) 70%, hsl(214, 100%, 97%) 100%)' }}>
           {/* Header */}
-          <header className="flex items-center justify-between px-4 md:px-6 py-3 border-b border-border bg-white/75 backdrop-blur-[16px]">
+          <header className="flex items-center justify-between px-4 md:px-6 py-3 border-b border-border bg-[hsl(214,100%,97%)]/80 backdrop-blur-[16px]">
             <div className="flex items-center gap-3">
               <button
                 onClick={() => setSidebarOpen(true)}
@@ -646,7 +646,7 @@ export default function Page() {
           </div>
 
           {/* Input Bar */}
-          <div className="border-t border-border bg-white/75 backdrop-blur-[16px] px-4 md:px-6 py-3">
+          <div className="border-t border-border bg-[hsl(214,100%,97%)]/80 backdrop-blur-[16px] px-4 md:px-6 py-3">
             <div className="max-w-3xl mx-auto">
               <div className="flex items-end gap-2 bg-secondary border border-border rounded-[0.875rem] px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-ring/20 transition-shadow duration-200">
                 <textarea
