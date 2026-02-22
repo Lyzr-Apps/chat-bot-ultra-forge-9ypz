@@ -1,0 +1,9 @@
+{
+  "nodes": [
+    {"id": "input_node", "type": "Input", "label": "User Message", "nodeCategory": "input"},
+    {"id": "chat_assistant_agent", "type": "Agent", "label": "Chat Assistant Agent", "nodeCategory": "agent"}
+  ],
+  "edges": [
+    {"source": "input_node", "target": "chat_assistant_agent"}
+  ]
+}

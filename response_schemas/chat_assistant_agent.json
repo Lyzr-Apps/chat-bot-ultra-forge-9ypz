@@ -1,0 +1,20 @@
+{
+  "agent_name": "Chat Assistant Agent",
+  "agent_id": "699ad366818a4b0c3ee82a77",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "type": "object",
+    "properties": {
+      "response": {
+        "type": "string",
+        "description": "The assistant's text response to the user's message"
+      }
+    },
+    "required": ["response"]
+  },
+  "sample_response": {
+    "response": "Hello! I'm your AI assistant. How can I help you today?"
+  }
+}
